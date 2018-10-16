@@ -2,7 +2,7 @@
 
 Please follow and complete the free online [Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/) or [Codecademy's Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line). These are helpful tutorials. You should be able to go through these in a couple of hours.
 
-**Note:** Bash is not installed on a PC. Rather, PC users must install Cygwin. Once Cygwin has been installed, the command line interface witll _emulate_ bash. You can find all information regarding Cygwin [here](https://www.cygwin.com/).
+**Note:** Bash is not installed on a PC. Rather, PC users must install Cygwin. Once Cygwin has been installed, the command line interface will _emulate_ bash. You can find all information regarding Cygwin [here](https://www.cygwin.com/).
 
 ---
 
@@ -20,22 +20,27 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`pwd`                           * show current working directory path
+`mkdir`                         * creating a directory
+`rmdir`                         * deleting a directory
+`touch path/to/file.filetype`   * creating a file using `touch` command
+`rm`                            * deleting a file
+`mv`                            * renaming a file
+`ls -ld .?*`                    * listing hidden files
+`cp source destination`         * copying a file from one directory to another
 
 ---
 
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
-
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`ls`                            * list
+`ls -a`                         * list all
+`ls -l`                         * list long
+`ls -lh`                        * list long human-readable
+`ls -lah`                       * list long with file sizes
+`ls -t`                         * list sorted by time
+`ls -Glp`                       * ???
 
 ---
 
